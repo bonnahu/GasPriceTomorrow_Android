@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/show_gas_price"
+          android:title="@string/show_gas_price" />
+    <item android:id="@+id/find_gas_station"
+          android:title="@string/find_gas_station" />
+    <item android:id="@+id/share_gas_info"
+          android:title="@string/share_gas_info" />
+    <item android:id="@+id/help"
+          android:title="@string/help" />
+    <item android:id="@+id/about"
+          android:title="@string/about" />      
+</menu>

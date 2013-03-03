@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Canada\'s Gas Price Tomorrow</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="show_gas_price">Show Gas Price</string>
+    <string name="find_gas_station">Find Gas Station</string>
+    <string name="share_gas_info">Share Gas Information</string>
+    <string name="feedUrl">http://tomorrowsgaspricetoday.com/rssfeed.php?city=</string>
+    <!-- These cities will show up in the listview -->
+    <string-array name="cities_array">
+        <item cityCode = "1">Toronto</item>
+        <item>Hamilton</item>
+        <item>London</item>
+        <item>Ottawa</item>
+        <item>Montreal</item>
+        <item>Vancouver</item>
+        <item>Barrie</item>
+        <item>Kingston</item>
+        <item>Peterborough</item>
+        <item>Guelph-Cambridge</item>
+        <item>Kitchener-Waterloo</item>
+        <item>Calgary</item>
+        <item>Vancouver</item>
+        <item>Winnipeg</item>
+        <item>Thunder Bay</item>
+    </string-array>
+    
+        
+       
+</resources>

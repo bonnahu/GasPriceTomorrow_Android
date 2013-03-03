@@ -1,0 +1,397 @@
+package com.microjobsinc.mjandroid;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.SQLException;
+import android.database.sqlite.SQLiteDatabase;
+import android.util.Log;
+
+/**
+ * Defines a helper class that contains all database specific logic 
+ */
+public class DBHelper {
+	/**
+	 * Defines a data-only class that contains the columns of a Jobs row
+	 */    
+	public static class Jobs {
+        public long _id;
+        public long employer_id;
+        public String website;
+        public String title;
+        public String description;
+        public long start_time;
+        public long end_time;
+        public String employer_name;
+        public String contact_name;
+        public long employer_rating;
+        public String street;
+        public String city;
+        public String state;
+        public String zip;
+        public String phone;
+        public String email;
+        public long latitude;
+        public long longitude;
+        public long status;
+    }
+    /**
+     * Defines a data-only class that contains the columns of a Worker row
+     */
+    public static class Worker {
+        public String name;
+        public String loc1_name;
+        public long loc1_lat;
+        public long loc1_long;
+        public String loc2_name;
+        public long loc2_lat;
+        public long loc2_long;
+        public String loc3_name;
+        public long loc3_lat;
+        public long loc3_long;
+    }
+
+    /** The current version of the database */
+    private static final int DATABASE_VERSION = 1;
+
+    /** Sort Jobs by the job title */
+    public static final int SORT_TITLE = 0;
+    /** Sort Jobs by the job employer name */
+    public static final int SORT_EMPLOYER = 1;
+    /** Translates SORT_TITLE and SORT_EMPLOYER into executable SQL */
+    private static final String[] SORT_ORDERS = new String[] {
+        " title", " employer_name" };
+
+    /** A query string that returns a cursor full of jobs */
+    private static String QUERY_JOBS;
+    /** A query string that returns a cursor with the number of jobs */
+    private static String QUERY_COUNT_JOBS;
+    /** A query string that returns a cursor full of job titles */
+    private static String QUERY_TITLES;
+    /** A query string that returns a cursor of workers */
+    private static String QUERY_WORKERS;
+    /** A SQL string to create the Jobs table */
+    private static String CREATE_TABLE_JOBS;
+    /** A SQL string to create the Employers table */
+    private static String CREATE_TABLE_EMPLOYERS;
+    /** A SQL string to create the Workers table */
+    private static String CREATE_TABLE_WORKERS;
+    /** A SQL string to create the Status table */
+    private static String CREATE_TABLE_STATUS;
+    
+    /** Keeps track of whether we've initialized yet or not */
+    private static boolean initialized;
+
+    /** Initialize our private data and database*/
+    private static void initDB(SQLiteDatabase db, Context ctx) {
+        // Init the queries.
+        QUERY_JOBS = ctx.getString(R.string.query_jobs);
+        QUERY_COUNT_JOBS = ctx.getString(R.string.query_count_jobs);
+        QUERY_WORKERS = ctx.getString(R.string.query_workers);
+        QUERY_TITLES = ctx.getString(R.string.query_titles);
+        CREATE_TABLE_JOBS = ctx.getString(R.string.query_create_jobs_table);
+        CREATE_TABLE_EMPLOYERS = ctx.getString(R.string.query_create_employers_table);
+        CREATE_TABLE_WORKERS = ctx.getString(R.string.query_create_workers_table);
+        CREATE_TABLE_STATUS = ctx.getString(R.string.query_create_status_table);
+
+        // Init the schema
+        try {
+            db.execSQL(CREATE_TABLE_JOBS);
+            db.execSQL(CREATE_TABLE_EMPLOYERS);
+            db.execSQL(CREATE_TABLE_WORKERS);
+            db.execSQL(CREATE_TABLE_STATUS);
+        }
+        catch (SQLException e) {
+            // Tables already exist
+            return;
+        }
+
+        // Insert some demo data
+        try {
+            String status_ins = "INSERT INTO status (_id , status) ";
+            db.execSQL(status_ins + "VALUES (NULL, 'Filled')");
+            db.execSQL(status_ins + "VALUES (NULL, 'Applied For')");
+            db.execSQL(status_ins + "VALUES (NULL, 'Open')");
+
+            db.execSQL(
+                "INSERT INTO workers(_id, name, username, rating, passhash, street,"
+                + " city, state, zip, phone, email, loc1_name, loc1_lat,"
+                + " loc1_long, loc2_name, loc2_lat, loc2_long, loc3_name,"
+                + " loc3_lat, loc3_long)"
+                + "VALUES (NULL, 'Larry Dickman', 'LD',  50,'', '1 Main Street', 'Boston',"
+                + "'MA', '01000', '6175551212','Larry@gmail.net', 'Boston', 42358897,"
+                + "-71057795, 'Cambridge, MA', 42359368, -71094208, 'GooglePlex',"
+                + "37423269,-122084917);");
+
+            String employers_ins = "INSERT INTO employers (_id, employer_name, contact_name, website, rating, street, city, state, zip, phone, email, latitude, longitude)";
+            db.execSQL(employers_ins
+                + "VALUES (1, 'Boston Pizza', 'Mike Dukakis', 'www.bostonpizza.com', 40, '40 Boylston Street', 'Boston', 'MA', '01000', '6175551212', 'jobs@BostonPizza.com', 42352299  , -71063979 );");
+            db.execSQL(employers_ins
+                + "VALUES (2, 'New England Hardware', 'Bob Vila', 'www.newenglandhardware.com', 30, '100 Tremont Street', 'Boston', 'MA', '01000', '6175551212', 'jobs@NEH.com', 42357397 , -71061295);");
+            db.execSQL(employers_ins
+                + "VALUES (3, 'Cheers Bar', 'Sam Neal', 'www.cheersbar.com', 50, '10 Newbury Street', 'Boston', 'MA', '01000', '6175551212', 'sam@Cheers.com', 42352466, -71071684);");
+            db.execSQL(employers_ins
+                + "VALUES (4, 'West Coast Lumber', 'Harry Truman', 'www.westcoastlumber.com', 35, '455 W Evelyn Ave', 'Mountain View', 'CA', '94041', '6505551212', 'jobs@westcoastlumber.com', 37393133, -122074941);");
+            db.execSQL(employers_ins
+                + "VALUES (5, 'Google', 'Eric Schmidt', 'www.google.com', 50, '1600 Amphitheatre Parkway', 'Mountain View', 'CA', '94041', '6502530000', 'jobs@google.com', 37423269, -122082667);");
+            db.execSQL(employers_ins
+                + "VALUES (6, 'Shakes Electronics', 'Elvis Presley', 'www.shakes.com', 35, '340 Portage Ave', 'Palo Alto', 'CA', '94306', '6504962000', 'jobs@shakes.com', 37422404, -122137609);");
+
+            String jobs_ins = "INSERT INTO jobs (_id, employer_id, title, description, start_time, end_time, status) ";
+            db.execSQL(jobs_ins
+                + "VALUES (NULL, 1, 'Busboy', 'Need a person to help clean tables for a few hours.  No experience necessary', 0, 0, 3);");
+            db.execSQL(jobs_ins
+                + "VALUES (NULL, 3, 'Bartender apprentice', 'Help our regular bartender during rush hours.  Must be over 21', 0, 0, 2);");
+            db.execSQL(jobs_ins
+                + "VALUES (NULL, 2, 'General help', 'Someone to help stock shelves and open the store', 0,0,1);");
+            db.execSQL(jobs_ins
+                + "VALUES (NULL, 4, 'Carpenter apprentice', 'Assist contract carpenters in assembly of backyard storage sheds.', 0, 0, 1);");
+            db.execSQL(jobs_ins
+                + "VALUES (NULL, 4, 'Store help', 'Help stock shelves', 0, 0, 2);");
+            db.execSQL(jobs_ins
+                + "VALUES (NULL, 5, 'CEO Standin', 'Need impersonator to stand in for Eric Schmidt while on vacation. Must look exactly like Eric Schmidt.', 0, 0, 3);");
+            db.execSQL(jobs_ins
+                + "VALUES (NULL, 5, 'Microsoft Advocate', 'Need lightning rod to promote use of Microsoft tools within Google.  Short term position.', 0, 0, 1);");
+            db.execSQL(jobs_ins
+                + "VALUES (NULL, 6, 'Customer support', 'Person to help TV customers understand that, no matter what their current problem, they need a new, bigger HD TV', 0, 0, 2);");
+            db.execSQL(jobs_ins
+                + "VALUES (NULL, 6, 'Game tester', 'Person to test new XBox games for hidden features.', 0, 0, 3);");
+            db.execSQL(jobs_ins
+                + "VALUES (NULL, 4, 'Carpentry teacher', 'Teach customers basic carpentry skills.  Must have done commercial work as a finish carpenter.', 0, 0, 1);");
+            db.execSQL(jobs_ins
+                + "VALUES (NULL, 4, 'Medic', 'Skilled in basic First Aid to stop bleeding of carpentry students.', 0, 0, 1);");
+            db.execSQL(jobs_ins
+                + "VALUES (NULL, 1, 'Kitchen help', 'Assist chef in high end pizza kitchen.  No experience necessary', 0, 0, 2);");
+            db.execSQL(jobs_ins
+                + "VALUES (NULL, 2, 'Temporary Cashier', 'Must have experience using a cash register.', 0, 0, 1);");
+        }
+        catch (SQLException e) {
+            Log.e("Error creating debug data", e.toString());
+        }
+    }
+
+    /** Our database object */
+    private final SQLiteDatabase db;
+
+    /** DBHelper constructor
+     * @param ctx
+     */
+    public DBHelper(Context ctx) {
+        db = ctx.openOrCreateDatabase(ctx.getString(R.string.db_name), Context.MODE_PRIVATE, null);
+        
+        synchronized (DBHelper.class) {
+            if (!initialized) {
+                initDB(db, ctx);        
+                initialized = true;
+            }
+        }
+    }
+
+    /**
+     * Close the db.  Further actions will generate SQLExceptions
+     */
+    public void close() { db.close(); }
+ 
+    /** Create a new job with the specified parameters
+     * @param emp_id
+     * @param title
+     * @param description
+     * @param start_time
+     * @param end_time
+     */
+    public void createJobsRow(
+        Integer emp_id,
+        String title,
+        String description,
+        Integer start_time,
+        Integer end_time)
+    {
+        ContentValues initialValues = new ContentValues();
+        initialValues.put("employer_id", emp_id);
+        initialValues.put("title", title);
+        initialValues.put("description", description);
+        initialValues.put("start_time", start_time);
+        initialValues.put("end_time", end_time);
+
+        db.insert("jobs", null, initialValues);
+    }
+
+    /** From the db_table, delete the row with the given _id
+     * @param db_table
+     * @param rowId
+     */
+    public void deleteRow(String db_table, long rowId) {
+        db.delete(db_table, "_id=" + rowId, null);
+    }
+
+    /** Return a List of Jobs containing all of the jobs in the system
+     * @param sort
+     * @return the name of all the jobs
+     */
+    public List<Jobs> fetchAllJobsTitles(int sort) {
+        ArrayList<Jobs> ret = new ArrayList<Jobs>();
+
+        if ((0 > sort) || (SORT_ORDERS.length <= sort)) { sort = 0; }
+        
+        Cursor c = null;
+        try {
+            c = db.rawQuery(QUERY_TITLES + SORT_ORDERS[sort], null);
+            int numRows = c.getCount();
+            c.moveToFirst();
+            for (int i = 0; i < numRows; ++i) {
+                Jobs row = new Jobs();
+                row._id = c.getLong(0);
+                row.title = c.getString(1);
+                row.employer_name = c.getString(2);
+                row.latitude = c.getLong(3);
+                row.longitude = c.getLong(4);
+                row.status = c.getLong(5);
+                ret.add(row);
+                c.moveToNext();
+            }
+        }
+        catch (SQLException e) {
+            Log.e("Error getting row from jobs table", e.toString());
+        }
+        finally {
+            if (null != c) {
+                try { c.close(); }
+                catch (SQLException e) { }
+            }
+        }
+
+        return ret;
+    }
+
+    /** Return the worker's information
+     * @return a worker
+     */
+    public Worker fetchWorkerInfo() {
+        Worker row = new Worker();
+        
+        Cursor c = null;
+        try {
+            c = db.rawQuery(QUERY_WORKERS, null);
+            c.moveToFirst();
+            row.name = c.getString(0);
+            row.loc1_name = c.getString(1);
+            row.loc1_lat = c.getLong(2);
+            row.loc1_long = c.getLong(3);
+            row.loc2_name = c.getString(4);
+            row.loc2_lat = c.getLong(5);
+            row.loc2_long = c.getLong(6);
+            row.loc3_name = c.getString(7);
+            row.loc3_lat = c.getLong(8);
+            row.loc3_long = c.getLong(9);
+        }
+        catch (SQLException e) {
+            Log.e("Error getting row from worker table", e.toString());
+        }
+        finally {
+            if (null != c) {
+                try { c.close(); }
+                catch (SQLException e) { }
+            }
+        }
+
+        return row;
+    }
+
+    /** Return the number of jobs available
+     * @return the number of available jobs
+     */
+    public int countJobRows() {
+        Cursor c = null;
+        try {
+            c = db.rawQuery(QUERY_COUNT_JOBS, null);
+            if (0 >= c.getCount()) { return 0; }
+            c.moveToFirst();
+            return c.getInt(0);
+        }
+        finally {
+            if (null != c) {
+                try { c.close(); }
+                catch (SQLException e) { }
+            }
+        }
+    }
+
+    /** Return all of the information regarding a specific job
+     * @param rowId
+     * @return the selected job
+     */
+    public Jobs fetchJobsRow(long rowId) {
+        Jobs row = new Jobs();
+        
+        Cursor c = null;
+        try {
+            c = db.rawQuery(QUERY_JOBS + rowId, null);
+            if (c.getCount() > 0) {
+                c.moveToFirst();
+                row._id = c.getLong(0);
+                row.employer_id = c.getLong(1);
+                row.website = c.getString(2);
+                row.title = c.getString(3);
+                row.description = c.getString(4);
+                row.start_time = c.getLong(5);
+                row.end_time = c.getLong(6);
+                row.employer_name = c.getString(7);
+                row.contact_name = c.getString(8);
+                row.employer_rating = c.getLong(9);
+                row.street = c.getString(10);
+                row.city = c.getString(11);
+                row.state = c.getString(12);
+                row.zip = c.getString(13);
+                row.phone = c.getString(14);
+                row.email = c.getString(15);
+                row.latitude = c.getLong(16);
+                row.longitude = c.getLong(17);
+                row.status = c.getLong(18);
+            }
+            else {
+                row._id = -1;
+                row.employer_id = row.start_time = row.end_time = 0;
+                row.title = row.description = row.website = null;
+            }
+        }
+        catch (SQLException e) {
+            Log.e("Error getting row from worker table", e.toString());
+        }
+        finally {
+            if (null != c) {
+                try { c.close(); }
+                catch (SQLException e) { }
+            }
+        }
+
+        return row;
+    }
+
+    /** Update selected information regarding a specific job
+     * @param _id
+     * @param employer_id
+     * @param title
+     * @param description
+     * @param start_time
+     * @param end_time
+     */
+    public void updateJobsRow(
+        long _id,
+        long employer_id,
+        String title,
+        String description,
+        long start_time,
+        long end_time)
+    {
+        ContentValues args = new ContentValues();
+        args.put("employer_id", Long.valueOf(employer_id));
+        args.put("title", title);
+        args.put("description", description);
+        args.put("start_time", Long.valueOf(start_time));
+        args.put("end_time", Long.valueOf(end_time));
+        db.update("jobs", args, "_id=" + _id, null);
+    }
+}

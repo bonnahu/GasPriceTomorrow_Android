@@ -1,0 +1,1351 @@
+10:40:54,546 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+10:40:54,656 DEBUG [C] Property change listener is enabled.
+10:40:54,765 DEBUG [F] Starting Search for CPs
+10:40:54,765 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+10:40:54,781 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+10:40:54,921 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+10:40:55,015 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+10:40:55,031 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+10:40:55,062 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+10:40:55,062 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+10:40:55,093 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+12:11:15,984 TRACE [M] Entered classPathChanged(); project: MvpExample
+12:11:15,984 TRACE [M] Entered checkProjectOptions(); project: MvpExample
+12:11:16,062 TRACE [M] Entered classPathChanged(); project: MvpExample
+12:11:16,062 TRACE [M] Entered checkProjectOptions(); project: MvpExample
+12:11:16,187 TRACE [M] Entered classPathChanged(); project: MvpExample
+12:11:16,187 TRACE [M] Entered checkProjectOptions(); project: MvpExample
+14:17:50,843 TRACE [M] Entered classPathChanged(); project: NotePad
+14:17:50,843 TRACE [M] Entered checkProjectOptions(); project: NotePad
+12:29:33,718 TRACE [M] Entered classPathChanged(); project: Notepadv1
+12:29:33,718 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+12:33:28,656 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+12:33:28,671 DEBUG [C] Property change listener is disabled.
+12:33:45,921 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+12:33:47,062 DEBUG [C] Property change listener is enabled.
+12:33:47,468 DEBUG [F] Starting Search for CPs
+12:33:47,500 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+12:33:47,546 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+12:33:47,687 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+12:33:48,015 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+12:33:48,031 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+12:33:48,031 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+12:33:48,171 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+12:33:48,625 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+12:34:14,406 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+12:34:14,406 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+12:34:14,484 TRACE [M] Entered classPathChanged(); project: Notepadv1
+12:34:14,484 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+12:34:14,484 TRACE [M] Entered classPathChanged(); project: MvpExample
+12:34:14,484 TRACE [M] Entered checkProjectOptions(); project: MvpExample
+12:34:14,484 TRACE [M] Entered classPathChanged(); project: AndroidXml
+12:34:14,484 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+12:34:14,484 TRACE [M] Entered classPathChanged(); project: NotePad
+12:34:14,484 TRACE [M] Entered checkProjectOptions(); project: NotePad
+12:34:25,031 TRACE [M] Entered classPathChanged(); project: AndroidXml
+12:34:25,046 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+12:34:25,046 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+12:34:25,046 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+12:34:25,046 TRACE [M] Entered classPathChanged(); project: Notepadv1
+12:34:25,046 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+12:34:25,046 TRACE [M] Entered classPathChanged(); project: NotePad
+12:34:25,046 TRACE [M] Entered checkProjectOptions(); project: NotePad
+12:35:40,453 TRACE [M] Entered classPathChanged(); project: Notepadv1
+12:35:40,453 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+12:35:40,640 TRACE [M] Entered classPathChanged(); project: Notepadv1
+12:35:40,640 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+14:57:48,125 TRACE [M] Entered classPathChanged(); project: Notepadv1
+14:57:48,125 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+14:57:48,296 TRACE [M] Entered classPathChanged(); project: Notepadv1
+14:57:48,296 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+10:28:47,542 TRACE [M] Entered classPathChanged(); project: Notepadv1_solution
+10:28:47,542 TRACE [M] Entered checkProjectOptions(); project: Notepadv1_solution
+10:29:54,200 TRACE [M] Entered classPathChanged(); project: Notepadv1_solution
+10:29:54,200 TRACE [M] Entered checkProjectOptions(); project: Notepadv1_solution
+10:29:54,341 TRACE [M] Entered classPathChanged(); project: Notepadv1_solution
+10:29:54,341 TRACE [M] Entered checkProjectOptions(); project: Notepadv1_solution
+10:36:10,366 TRACE [M] Entered classPathChanged(); project: Notepadv1
+10:36:10,366 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+10:36:10,569 TRACE [M] Entered classPathChanged(); project: Notepadv1
+10:36:10,569 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+11:05:34,798 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+11:05:34,798 DEBUG [C] Property change listener is disabled.
+17:02:26,340 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+17:02:26,856 DEBUG [C] Property change listener is enabled.
+17:02:27,059 DEBUG [F] Starting Search for CPs
+17:02:27,075 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+17:02:27,153 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+17:02:27,231 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+17:02:27,231 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+17:02:27,356 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+17:02:27,387 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+17:02:27,434 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+17:02:27,606 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+17:02:45,076 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+17:02:45,076 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+17:02:45,154 TRACE [M] Entered classPathChanged(); project: Notepadv1
+17:02:45,154 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+17:02:51,670 TRACE [M] Entered classPathChanged(); project: Notepadv1
+17:02:51,670 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+23:13:28,750 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+23:13:28,750 DEBUG [C] Property change listener is disabled.
+11:03:08,645 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+11:03:08,942 DEBUG [C] Property change listener is enabled.
+11:03:09,004 DEBUG [F] Starting Search for CPs
+11:03:09,020 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+11:03:09,020 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+11:03:09,051 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+11:03:09,082 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+11:03:09,082 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+11:03:09,082 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+11:03:09,098 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+11:03:09,114 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+13:14:55,859 TRACE [M] Entered classPathChanged(); project: Notepadv2
+13:14:55,859 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+14:24:02,432 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+14:24:02,432 DEBUG [C] Property change listener is disabled.
+21:22:54,656 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+21:22:56,250 DEBUG [C] Property change listener is enabled.
+21:22:56,750 DEBUG [F] Starting Search for CPs
+21:22:56,812 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+21:22:56,875 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+21:22:57,093 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+21:22:57,406 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+21:22:57,421 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+21:22:57,421 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+21:22:57,531 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+21:22:57,953 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+21:23:21,546 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:23:21,546 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:23:21,671 TRACE [M] Entered classPathChanged(); project: Notepadv1
+21:23:21,671 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+21:23:21,671 TRACE [M] Entered classPathChanged(); project: Notepadv2
+21:23:21,671 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+21:23:34,390 TRACE [M] Entered classPathChanged(); project: AndroidXml
+21:23:34,390 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+21:23:34,390 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:23:34,390 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:23:34,390 TRACE [M] Entered classPathChanged(); project: Notepadv1
+21:23:34,390 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+21:23:34,390 TRACE [M] Entered classPathChanged(); project: NotePad
+21:23:34,390 TRACE [M] Entered checkProjectOptions(); project: NotePad
+21:23:41,828 TRACE [M] Entered classPathChanged(); project: AndroidXml
+21:23:41,828 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+21:23:41,828 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:23:41,828 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:23:41,828 TRACE [M] Entered classPathChanged(); project: Notepadv1
+21:23:41,828 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+21:23:41,828 TRACE [M] Entered classPathChanged(); project: NotePad
+21:23:41,828 TRACE [M] Entered checkProjectOptions(); project: NotePad
+21:23:41,828 TRACE [M] Entered classPathChanged(); project: Notepadv2
+21:23:41,828 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+21:24:25,359 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+21:24:25,359 DEBUG [C] Property change listener is disabled.
+20:09:42,343 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+20:09:42,703 DEBUG [C] Property change listener is enabled.
+20:09:42,765 DEBUG [F] Starting Search for CPs
+20:09:42,781 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+20:09:42,781 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+20:09:42,812 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+20:09:42,812 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+20:09:42,843 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+20:09:42,843 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+20:09:42,843 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+20:09:42,890 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+10:11:56,312 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+10:11:56,312 DEBUG [C] Property change listener is disabled.
+13:39:53,828 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+13:39:54,062 DEBUG [C] Property change listener is enabled.
+13:39:54,125 DEBUG [F] Starting Search for CPs
+13:39:54,140 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+13:39:54,140 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+13:39:54,171 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+13:39:54,203 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+13:39:54,203 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+13:39:54,203 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+13:39:54,218 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+13:39:54,390 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+15:23:34,015 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+15:23:34,015 DEBUG [C] Property change listener is disabled.
+10:01:21,039 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+10:01:23,571 DEBUG [C] Property change listener is enabled.
+10:01:24,133 DEBUG [F] Starting Search for CPs
+10:01:24,180 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+10:01:24,211 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+10:01:24,618 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+10:01:24,977 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+10:01:24,977 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+10:01:24,993 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+10:01:25,071 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+10:01:25,649 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+10:02:16,634 TRACE [M] Entered classPathChanged(); project: Notepadv1
+10:02:16,634 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+10:02:16,884 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+10:02:16,884 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+10:02:43,057 TRACE [M] Entered classPathChanged(); project: AndroidXml
+10:02:43,057 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+10:02:43,057 TRACE [M] Entered classPathChanged(); project: Notepadv1
+10:02:43,057 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+10:02:43,057 TRACE [M] Entered classPathChanged(); project: Notepadv2
+10:02:43,057 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+10:02:43,057 TRACE [M] Entered classPathChanged(); project: NotePad
+10:02:43,057 TRACE [M] Entered checkProjectOptions(); project: NotePad
+10:02:44,463 TRACE [M] Entered classPathChanged(); project: AndroidXml
+10:02:44,463 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+10:02:44,463 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+10:02:44,463 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+10:02:44,463 TRACE [M] Entered classPathChanged(); project: Notepadv1
+10:02:44,463 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+10:02:44,463 TRACE [M] Entered classPathChanged(); project: NotePad
+10:02:44,463 TRACE [M] Entered checkProjectOptions(); project: NotePad
+10:02:44,463 TRACE [M] Entered classPathChanged(); project: Notepadv2
+10:02:44,463 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+10:17:58,790 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+10:17:58,790 DEBUG [C] Property change listener is disabled.
+20:16:58,484 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+20:16:59,250 DEBUG [C] Property change listener is enabled.
+20:16:59,578 DEBUG [F] Starting Search for CPs
+20:16:59,625 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+20:16:59,671 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+20:16:59,796 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+20:17:00,218 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+20:17:00,250 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+20:17:00,250 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+20:17:00,390 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+20:17:00,812 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+20:17:16,437 TRACE [M] Entered classPathChanged(); project: Notepadv1
+20:17:16,437 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+20:17:16,578 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+20:17:16,578 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+20:17:27,859 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+20:17:27,859 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+20:25:02,750 TRACE [M] Entered classPathChanged(); project: MJAndroid
+20:25:02,750 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+20:35:25,140 TRACE [M] Entered classPathChanged(); project: MJAndroid
+20:35:25,140 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+20:35:25,250 TRACE [M] Entered classPathChanged(); project: MJAndroid
+20:35:25,250 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+20:35:48,312 TRACE [M] Entered classPathChanged(); project: MJAndroid
+20:35:48,312 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+20:49:35,968 TRACE [M] Entered classPathChanged(); project: MJAndroid
+20:49:35,968 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+20:49:36,906 TRACE [M] Entered classPathChanged(); project: MJAndroid
+20:49:36,906 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+20:49:58,656 TRACE [M] Entered classPathChanged(); project: MJAndroid
+20:49:58,656 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+20:49:59,750 TRACE [M] Entered classPathChanged(); project: MJAndroid
+20:49:59,750 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+23:26:46,562 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+23:26:46,562 DEBUG [C] Property change listener is disabled.
+10:32:27,788 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+10:32:30,365 DEBUG [C] Property change listener is enabled.
+10:32:31,146 DEBUG [F] Starting Search for CPs
+10:32:31,209 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+10:32:31,349 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+10:32:31,708 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+10:32:32,333 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+10:32:32,349 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+10:32:32,349 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+10:32:32,786 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+10:32:33,895 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+10:33:03,732 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+10:33:03,732 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+10:34:12,700 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+10:34:12,700 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+11:14:17,162 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+11:14:17,162 DEBUG [C] Property change listener is disabled.
+11:34:08,038 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+11:34:08,585 DEBUG [C] Property change listener is enabled.
+11:34:08,820 DEBUG [F] Starting Search for CPs
+11:34:08,835 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+11:34:08,867 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+11:34:08,913 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+11:34:08,913 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+11:34:09,179 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+11:34:09,210 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+11:34:09,367 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+11:34:09,632 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+11:34:24,726 TRACE [M] Entered classPathChanged(); project: Notepadv1
+11:34:24,726 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+11:34:24,882 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+11:34:24,882 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+11:34:36,726 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+11:34:36,726 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+13:42:42,066 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+13:42:42,066 DEBUG [C] Property change listener is disabled.
+23:06:08,093 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+23:06:09,359 DEBUG [C] Property change listener is enabled.
+23:06:09,796 DEBUG [F] Starting Search for CPs
+23:06:09,843 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+23:06:09,890 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+23:06:10,125 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+23:06:10,125 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+23:06:10,390 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+23:06:10,421 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+23:06:10,515 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+23:06:10,781 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+23:06:35,718 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+23:06:35,718 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+23:06:36,828 TRACE [M] Entered classPathChanged(); project: Notepadv1
+23:06:36,828 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+23:06:36,828 TRACE [M] Entered classPathChanged(); project: MJAndroid
+23:06:36,828 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+23:06:46,234 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+23:06:46,234 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+23:06:46,234 TRACE [M] Entered classPathChanged(); project: Notepadv1
+23:06:46,234 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+23:06:46,234 TRACE [M] Entered classPathChanged(); project: AndroidXml
+23:06:46,234 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+23:06:46,234 TRACE [M] Entered classPathChanged(); project: NotePad
+23:06:46,234 TRACE [M] Entered checkProjectOptions(); project: NotePad
+23:06:46,234 TRACE [M] Entered classPathChanged(); project: Notepadv2
+23:06:46,234 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+23:06:52,421 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+23:06:52,421 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+23:06:52,421 TRACE [M] Entered classPathChanged(); project: MJAndroid
+23:06:52,421 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+23:07:09,109 TRACE [M] Entered classPathChanged(); project: AndroidXml
+23:07:09,109 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+23:07:09,109 TRACE [M] Entered classPathChanged(); project: Notepadv1
+23:07:09,109 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+23:07:09,109 TRACE [M] Entered classPathChanged(); project: NotePad
+23:07:09,109 TRACE [M] Entered checkProjectOptions(); project: NotePad
+23:07:09,109 TRACE [M] Entered classPathChanged(); project: Notepadv2
+23:07:09,109 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+23:21:42,718 TRACE [M] Entered classPathChanged(); project: MJAndroid
+23:21:42,718 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+23:21:44,687 TRACE [M] Entered classPathChanged(); project: MJAndroid
+23:21:44,734 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+09:17:51,405 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+09:17:51,405 DEBUG [C] Property change listener is disabled.
+21:02:32,156 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+21:02:33,531 DEBUG [C] Property change listener is enabled.
+21:02:33,890 DEBUG [F] Starting Search for CPs
+21:02:33,937 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+21:02:34,015 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+21:02:34,218 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+21:02:34,218 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+21:02:34,515 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+21:02:34,515 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+21:02:34,703 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+21:02:34,953 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+21:03:00,218 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:03:00,218 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:03:00,953 TRACE [M] Entered classPathChanged(); project: Notepadv1
+21:03:00,953 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+21:03:00,953 TRACE [M] Entered classPathChanged(); project: MJAndroid
+21:03:00,953 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+21:03:09,843 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:03:09,843 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:03:09,843 TRACE [M] Entered classPathChanged(); project: Notepadv1
+21:03:09,843 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+21:03:09,843 TRACE [M] Entered classPathChanged(); project: AndroidXml
+21:03:09,843 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+21:03:09,843 TRACE [M] Entered classPathChanged(); project: NotePad
+21:03:09,843 TRACE [M] Entered checkProjectOptions(); project: NotePad
+21:03:09,843 TRACE [M] Entered classPathChanged(); project: Notepadv2
+21:03:09,843 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+21:03:22,843 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:03:22,843 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:03:22,843 TRACE [M] Entered classPathChanged(); project: Notepadv1
+21:03:22,843 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+21:03:22,843 TRACE [M] Entered classPathChanged(); project: MJAndroid
+21:03:22,843 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+21:03:22,843 TRACE [M] Entered classPathChanged(); project: AndroidXml
+21:03:22,843 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+21:03:22,843 TRACE [M] Entered classPathChanged(); project: Notepadv2
+21:03:22,843 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+21:03:22,843 TRACE [M] Entered classPathChanged(); project: NotePad
+21:03:22,843 TRACE [M] Entered checkProjectOptions(); project: NotePad
+21:05:29,656 TRACE [M] Entered classPathChanged(); project: MJAndroid
+21:05:29,656 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+21:05:31,437 TRACE [M] Entered classPathChanged(); project: MJAndroid
+21:05:31,437 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+23:16:08,468 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+23:16:08,468 DEBUG [C] Property change listener is disabled.
+09:03:04,296 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+09:03:05,390 DEBUG [C] Property change listener is enabled.
+09:03:05,812 DEBUG [F] Starting Search for CPs
+09:03:05,859 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+09:03:05,906 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+09:03:06,015 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+09:03:06,015 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+09:03:06,281 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+09:03:06,281 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+09:03:06,328 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+09:03:06,515 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+09:03:29,500 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+09:03:29,500 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+09:03:29,734 TRACE [M] Entered classPathChanged(); project: Notepadv1
+09:03:29,734 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+09:03:29,734 TRACE [M] Entered classPathChanged(); project: MJAndroid
+09:03:29,734 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+09:03:40,609 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+09:03:40,609 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+09:03:40,609 TRACE [M] Entered classPathChanged(); project: Notepadv1
+09:03:40,609 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+09:03:40,609 TRACE [M] Entered classPathChanged(); project: AndroidXml
+09:03:40,609 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+09:03:40,609 TRACE [M] Entered classPathChanged(); project: NotePad
+09:03:40,609 TRACE [M] Entered checkProjectOptions(); project: NotePad
+09:03:40,609 TRACE [M] Entered classPathChanged(); project: Notepadv2
+09:03:40,609 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+09:03:50,734 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+09:03:50,734 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+09:03:50,734 TRACE [M] Entered classPathChanged(); project: Notepadv1
+09:03:50,734 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+09:03:50,750 TRACE [M] Entered classPathChanged(); project: MJAndroid
+09:03:50,750 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+09:03:50,750 TRACE [M] Entered classPathChanged(); project: AndroidXml
+09:03:50,750 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+09:03:50,750 TRACE [M] Entered classPathChanged(); project: Notepadv2
+09:03:50,750 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+09:03:50,750 TRACE [M] Entered classPathChanged(); project: NotePad
+09:03:50,750 TRACE [M] Entered checkProjectOptions(); project: NotePad
+09:26:12,297 TRACE [M] Entered classPathChanged(); project: MJAndroid
+09:26:12,297 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+09:26:13,453 TRACE [M] Entered classPathChanged(); project: MJAndroid
+09:26:13,453 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+16:50:40,802 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+16:50:40,802 DEBUG [C] Property change listener is disabled.
+20:32:03,718 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+20:32:04,796 DEBUG [C] Property change listener is enabled.
+20:32:05,265 DEBUG [F] Starting Search for CPs
+20:32:05,312 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+20:32:05,343 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+20:32:05,468 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+20:32:05,781 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+20:32:05,796 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+20:32:05,812 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+20:32:05,890 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+20:32:06,296 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+20:32:39,171 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+20:32:39,171 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+20:32:39,359 TRACE [M] Entered classPathChanged(); project: Notepadv1
+20:32:39,359 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+20:32:39,359 TRACE [M] Entered classPathChanged(); project: MJAndroid
+20:32:39,359 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+20:32:41,046 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+20:32:41,046 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+20:32:41,062 TRACE [M] Entered classPathChanged(); project: AndroidXml
+20:32:41,062 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+20:32:41,062 TRACE [M] Entered classPathChanged(); project: Notepadv2
+20:32:41,062 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+20:33:00,468 TRACE [M] Entered classPathChanged(); project: AndroidXml
+20:33:00,468 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+20:33:00,468 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+20:33:00,468 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+20:33:00,468 TRACE [M] Entered classPathChanged(); project: Notepadv2
+20:33:00,468 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+20:33:00,468 TRACE [M] Entered classPathChanged(); project: MJAndroid
+20:33:00,468 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+23:19:46,890 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+23:19:46,890 DEBUG [C] Property change listener is disabled.
+23:34:59,703 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+23:35:00,390 DEBUG [C] Property change listener is enabled.
+23:35:00,562 DEBUG [F] Starting Search for CPs
+23:35:00,578 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+23:35:00,578 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+23:35:00,656 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+23:35:00,781 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+23:35:00,796 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+23:35:00,796 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+23:35:00,796 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+23:35:01,000 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+23:35:15,546 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+23:35:15,546 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+23:35:15,578 TRACE [M] Entered classPathChanged(); project: Notepadv1
+23:35:15,578 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+23:35:15,578 TRACE [M] Entered classPathChanged(); project: MJAndroid
+23:35:15,578 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+23:35:27,328 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+23:35:27,328 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+23:35:27,328 TRACE [M] Entered classPathChanged(); project: Notepadv1
+23:35:27,328 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+23:35:27,328 TRACE [M] Entered classPathChanged(); project: AndroidXml
+23:35:27,328 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+23:35:27,328 TRACE [M] Entered classPathChanged(); project: NotePad
+23:35:27,328 TRACE [M] Entered checkProjectOptions(); project: NotePad
+23:35:27,328 TRACE [M] Entered classPathChanged(); project: Notepadv2
+23:35:27,328 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+23:35:32,500 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+23:35:32,515 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+23:35:32,515 TRACE [M] Entered classPathChanged(); project: Notepadv1
+23:35:32,515 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+23:35:32,515 TRACE [M] Entered classPathChanged(); project: MJAndroid
+23:35:32,515 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+23:35:32,515 TRACE [M] Entered classPathChanged(); project: AndroidXml
+23:35:32,515 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+23:35:32,515 TRACE [M] Entered classPathChanged(); project: Notepadv2
+23:35:32,515 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+23:35:32,515 TRACE [M] Entered classPathChanged(); project: NotePad
+23:35:32,515 TRACE [M] Entered checkProjectOptions(); project: NotePad
+09:22:51,494 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+09:22:51,494 DEBUG [C] Property change listener is disabled.
+09:41:47,437 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+09:41:48,015 DEBUG [C] Property change listener is enabled.
+09:41:48,265 DEBUG [F] Starting Search for CPs
+09:41:48,281 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+09:41:48,281 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+09:41:48,343 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+09:41:48,499 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+09:41:48,531 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+09:41:48,531 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+09:41:48,546 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+09:41:48,874 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+09:53:08,033 TRACE [M] Entered classPathChanged(); project: ApiDemos
+09:53:08,033 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+09:53:16,752 TRACE [M] Entered classPathChanged(); project: ApiDemos
+09:53:16,752 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+10:02:35,906 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+10:02:35,906 DEBUG [C] Property change listener is disabled.
+23:16:46,875 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+23:16:47,609 DEBUG [C] Property change listener is enabled.
+23:16:47,937 DEBUG [F] Starting Search for CPs
+23:16:47,984 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+23:16:48,031 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+23:16:48,203 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+23:16:48,375 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+23:16:48,390 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+23:16:48,390 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+23:16:48,484 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+23:16:48,703 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+09:54:49,015 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+09:54:49,015 DEBUG [C] Property change listener is disabled.
+21:47:14,609 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+21:47:14,859 DEBUG [C] Property change listener is enabled.
+21:47:14,937 DEBUG [F] Starting Search for CPs
+21:47:14,953 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+21:47:14,953 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+21:47:14,984 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+21:47:15,015 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+21:47:15,015 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+21:47:15,015 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+21:47:15,031 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+21:47:15,046 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+21:47:23,796 TRACE [M] Entered classPathChanged(); project: ApiDemos
+21:47:23,796 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+21:47:23,828 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:47:23,828 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:47:28,890 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:47:28,890 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+11:24:12,156 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+11:24:12,156 DEBUG [C] Property change listener is disabled.
+22:36:10,296 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+22:36:10,687 DEBUG [C] Property change listener is enabled.
+22:36:10,765 DEBUG [F] Starting Search for CPs
+22:36:10,781 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+22:36:10,781 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+22:36:10,796 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+22:36:10,843 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+22:36:10,843 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+22:36:10,843 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+22:36:10,843 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+22:36:10,875 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+22:36:24,500 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+22:36:24,500 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+22:36:57,078 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+22:36:57,078 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+22:56:03,453 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+22:56:03,453 DEBUG [C] Property change listener is disabled.
+22:56:07,484 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+22:56:07,718 DEBUG [C] Property change listener is enabled.
+22:56:07,781 DEBUG [F] Starting Search for CPs
+22:56:07,781 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+22:56:07,781 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+22:56:07,812 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+22:56:07,812 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+22:56:07,843 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+22:56:07,843 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+22:56:07,843 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+22:56:07,968 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+22:56:17,328 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+22:56:17,328 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+22:56:22,000 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+22:56:22,000 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+10:25:14,977 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+10:25:14,977 DEBUG [C] Property change listener is disabled.
+15:27:52,946 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+15:27:56,009 DEBUG [C] Property change listener is enabled.
+15:27:56,884 DEBUG [F] Starting Search for CPs
+15:27:56,962 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+15:27:57,071 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+15:27:57,524 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+15:27:57,915 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+15:27:57,915 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+15:27:57,915 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+15:27:58,040 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+15:27:58,884 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+08:18:30,743 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+08:18:30,743 DEBUG [C] Property change listener is disabled.
+20:40:51,156 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+20:40:52,859 DEBUG [C] Property change listener is enabled.
+20:40:53,343 DEBUG [F] Starting Search for CPs
+20:40:54,343 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+20:40:54,421 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+20:40:54,671 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+20:40:55,453 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+20:40:55,453 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+20:40:55,468 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+20:40:55,515 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+20:40:56,062 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+20:42:16,343 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+20:42:16,343 DEBUG [C] Property change listener is disabled.
+22:56:40,312 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+22:56:40,734 DEBUG [C] Property change listener is enabled.
+22:56:40,812 DEBUG [F] Starting Search for CPs
+22:56:40,812 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+22:56:40,812 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+22:56:40,875 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+22:56:40,875 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+22:56:40,906 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+22:56:40,906 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+22:56:40,906 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+22:56:40,937 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+22:58:36,734 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+22:58:36,734 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+22:58:36,859 TRACE [M] Entered classPathChanged(); project: ApiDemos
+22:58:36,859 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+22:58:36,859 TRACE [M] Entered classPathChanged(); project: Notepadv1
+22:58:36,859 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+22:58:36,859 TRACE [M] Entered classPathChanged(); project: MJAndroid
+22:58:36,859 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+22:58:36,859 TRACE [M] Entered classPathChanged(); project: AndroidXml
+22:58:36,859 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+22:58:36,859 TRACE [M] Entered classPathChanged(); project: Notepadv2
+22:58:36,859 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+22:58:36,859 TRACE [M] Entered classPathChanged(); project: NotePad
+22:58:36,859 TRACE [M] Entered checkProjectOptions(); project: NotePad
+22:59:09,343 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+22:59:09,343 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+22:59:09,343 TRACE [M] Entered classPathChanged(); project: ApiDemos
+22:59:09,343 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+22:59:09,343 TRACE [M] Entered classPathChanged(); project: Notepadv1
+22:59:09,343 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+22:59:09,343 TRACE [M] Entered classPathChanged(); project: MJAndroid
+22:59:09,343 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+22:59:09,343 TRACE [M] Entered classPathChanged(); project: AndroidXml
+22:59:09,343 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+22:59:09,343 TRACE [M] Entered classPathChanged(); project: NotePad
+22:59:09,343 TRACE [M] Entered checkProjectOptions(); project: NotePad
+22:59:09,343 TRACE [M] Entered classPathChanged(); project: Notepadv2
+22:59:09,343 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+23:09:06,015 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+23:09:06,015 DEBUG [C] Property change listener is disabled.
+09:35:17,440 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+09:35:18,158 DEBUG [C] Property change listener is enabled.
+09:35:18,314 DEBUG [F] Starting Search for CPs
+09:35:18,330 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+09:35:18,330 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+09:35:18,439 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+09:35:18,830 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+09:35:18,830 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+09:35:18,830 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+09:35:18,861 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+09:35:19,001 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+09:35:32,977 TRACE [M] Entered classPathChanged(); project: ApiDemos
+09:35:32,977 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+09:35:32,993 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+09:35:32,993 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+09:35:39,161 TRACE [M] Entered classPathChanged(); project: ApiDemos
+09:35:39,161 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+09:35:39,161 TRACE [M] Entered classPathChanged(); project: Notepadv1
+09:35:39,161 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+09:35:39,161 TRACE [M] Entered classPathChanged(); project: MJAndroid
+09:35:39,161 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+09:35:39,161 TRACE [M] Entered classPathChanged(); project: AndroidXml
+09:35:39,161 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+09:35:39,161 TRACE [M] Entered classPathChanged(); project: NotePad
+09:35:39,161 TRACE [M] Entered checkProjectOptions(); project: NotePad
+09:35:39,161 TRACE [M] Entered classPathChanged(); project: Notepadv2
+09:35:39,161 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+09:36:10,282 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+09:36:10,282 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+09:36:13,218 TRACE [M] Entered classPathChanged(); project: ApiDemos
+09:36:13,234 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+09:36:13,234 TRACE [M] Entered classPathChanged(); project: Notepadv1
+09:36:13,234 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+09:36:13,234 TRACE [M] Entered classPathChanged(); project: MJAndroid
+09:36:13,234 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+09:36:15,279 TRACE [M] Entered classPathChanged(); project: AndroidXml
+09:36:15,279 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+09:36:15,279 TRACE [M] Entered classPathChanged(); project: NotePad
+09:36:15,279 TRACE [M] Entered checkProjectOptions(); project: NotePad
+09:36:15,279 TRACE [M] Entered classPathChanged(); project: Notepadv2
+09:36:15,279 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+09:37:44,356 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+09:37:44,356 DEBUG [C] Property change listener is disabled.
+21:00:32,984 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+21:00:33,296 DEBUG [C] Property change listener is enabled.
+21:00:33,375 DEBUG [F] Starting Search for CPs
+21:00:33,375 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+21:00:33,375 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+21:00:33,421 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+21:00:33,468 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+21:00:33,468 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+21:00:33,484 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+21:00:33,484 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+21:00:33,500 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+21:01:23,218 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:01:23,218 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:01:23,281 TRACE [M] Entered classPathChanged(); project: ApiDemos
+21:01:23,281 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+21:01:23,281 TRACE [M] Entered classPathChanged(); project: Notepadv1
+21:01:23,281 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+21:01:23,281 TRACE [M] Entered classPathChanged(); project: MJAndroid
+21:01:23,281 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+21:01:23,281 TRACE [M] Entered classPathChanged(); project: AndroidXml
+21:01:23,281 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+21:01:23,281 TRACE [M] Entered classPathChanged(); project: Notepadv2
+21:01:23,281 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+21:01:23,281 TRACE [M] Entered classPathChanged(); project: NotePad
+21:01:23,281 TRACE [M] Entered checkProjectOptions(); project: NotePad
+21:01:44,187 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:01:44,187 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:01:44,187 TRACE [M] Entered classPathChanged(); project: ApiDemos
+21:01:44,187 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+21:01:49,343 TRACE [M] Entered classPathChanged(); project: AndroidXml
+21:01:49,343 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+21:01:49,343 TRACE [M] Entered classPathChanged(); project: MJAndroid
+21:01:49,343 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+21:01:59,171 TRACE [M] Entered classPathChanged(); project: Notepadv1
+21:01:59,171 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+21:01:59,171 TRACE [M] Entered classPathChanged(); project: Notepadv2
+21:01:59,171 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+21:01:59,171 TRACE [M] Entered classPathChanged(); project: NotePad
+21:01:59,171 TRACE [M] Entered checkProjectOptions(); project: NotePad
+23:03:13,640 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+23:03:13,640 DEBUG [C] Property change listener is disabled.
+23:39:53,968 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+23:39:54,906 DEBUG [C] Property change listener is enabled.
+23:39:55,109 DEBUG [F] Starting Search for CPs
+23:39:55,140 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+23:39:55,140 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+23:39:55,250 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+23:39:55,250 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+23:39:55,421 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+23:39:55,421 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+23:39:55,437 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+23:39:55,671 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+23:41:59,625 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+23:41:59,625 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+23:42:00,031 TRACE [M] Entered classPathChanged(); project: ApiDemos
+23:42:00,031 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+23:42:00,031 TRACE [M] Entered classPathChanged(); project: Notepadv1
+23:42:00,031 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+23:42:00,031 TRACE [M] Entered classPathChanged(); project: MJAndroid
+23:42:00,031 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+23:42:00,031 TRACE [M] Entered classPathChanged(); project: AndroidXml
+23:42:00,031 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+23:42:00,031 TRACE [M] Entered classPathChanged(); project: Notepadv2
+23:42:00,031 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+23:42:00,031 TRACE [M] Entered classPathChanged(); project: NotePad
+23:42:00,031 TRACE [M] Entered checkProjectOptions(); project: NotePad
+23:42:54,796 TRACE [M] Entered classPathChanged(); project: AndroidXml
+23:42:54,796 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+23:42:56,078 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+23:42:56,078 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+23:42:56,078 TRACE [M] Entered classPathChanged(); project: ApiDemos
+23:42:56,078 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+23:42:56,078 TRACE [M] Entered classPathChanged(); project: Notepadv1
+23:42:56,078 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+23:42:56,078 TRACE [M] Entered classPathChanged(); project: MJAndroid
+23:42:56,078 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+23:42:56,078 TRACE [M] Entered classPathChanged(); project: NotePad
+23:42:56,078 TRACE [M] Entered checkProjectOptions(); project: NotePad
+23:42:56,078 TRACE [M] Entered classPathChanged(); project: Notepadv2
+23:42:56,078 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+08:11:57,156 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+08:11:57,156 DEBUG [C] Property change listener is disabled.
+08:12:03,281 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+08:12:03,500 DEBUG [C] Property change listener is enabled.
+08:12:03,562 DEBUG [F] Starting Search for CPs
+08:12:03,578 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+08:12:03,578 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+08:12:03,609 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+08:12:03,609 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+08:12:03,687 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+08:12:03,687 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+08:12:03,687 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+08:12:03,703 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+08:12:08,718 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+08:12:08,718 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+08:12:08,750 TRACE [M] Entered classPathChanged(); project: ApiDemos
+08:12:08,750 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+08:12:08,750 TRACE [M] Entered classPathChanged(); project: Notepadv1
+08:12:08,750 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+08:12:08,750 TRACE [M] Entered classPathChanged(); project: MJAndroid
+08:12:08,750 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+08:12:08,750 TRACE [M] Entered classPathChanged(); project: AndroidXml
+08:12:08,750 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+08:12:08,750 TRACE [M] Entered classPathChanged(); project: Notepadv2
+08:12:08,750 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+08:12:08,750 TRACE [M] Entered classPathChanged(); project: NotePad
+08:12:08,750 TRACE [M] Entered checkProjectOptions(); project: NotePad
+08:12:13,703 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+08:12:13,703 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+08:12:13,703 TRACE [M] Entered classPathChanged(); project: ApiDemos
+08:12:13,703 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+08:12:13,703 TRACE [M] Entered classPathChanged(); project: Notepadv1
+08:12:13,703 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+08:12:13,703 TRACE [M] Entered classPathChanged(); project: MJAndroid
+08:12:13,703 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+08:12:13,703 TRACE [M] Entered classPathChanged(); project: AndroidXml
+08:12:13,703 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+08:12:13,703 TRACE [M] Entered classPathChanged(); project: NotePad
+08:12:13,703 TRACE [M] Entered checkProjectOptions(); project: NotePad
+08:12:13,703 TRACE [M] Entered classPathChanged(); project: Notepadv2
+08:12:13,703 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+08:12:18,468 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+08:12:18,468 DEBUG [C] Property change listener is disabled.
+20:54:14,859 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+20:54:17,953 DEBUG [C] Property change listener is enabled.
+20:54:18,468 DEBUG [F] Starting Search for CPs
+20:54:18,515 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+20:54:18,562 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+20:54:18,718 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+20:54:19,187 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+20:54:19,234 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+20:54:19,234 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+20:54:19,375 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+20:54:19,953 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+20:54:40,281 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+20:54:40,281 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+20:54:40,406 TRACE [M] Entered classPathChanged(); project: ApiDemos
+20:54:40,406 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+20:54:40,406 TRACE [M] Entered classPathChanged(); project: Notepadv1
+20:54:40,406 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+20:54:40,406 TRACE [M] Entered classPathChanged(); project: MJAndroid
+20:54:40,406 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+20:54:40,406 TRACE [M] Entered classPathChanged(); project: AndroidXml
+20:54:40,406 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+20:54:40,406 TRACE [M] Entered classPathChanged(); project: NotePad
+20:54:40,406 TRACE [M] Entered checkProjectOptions(); project: NotePad
+20:54:40,406 TRACE [M] Entered classPathChanged(); project: Notepadv2
+20:54:40,406 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+20:54:57,500 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+20:54:57,500 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+20:54:57,500 TRACE [M] Entered classPathChanged(); project: ApiDemos
+20:54:57,500 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+20:54:57,500 TRACE [M] Entered classPathChanged(); project: Notepadv1
+20:54:57,500 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+20:54:57,500 TRACE [M] Entered classPathChanged(); project: MJAndroid
+20:54:57,500 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+20:54:57,500 TRACE [M] Entered classPathChanged(); project: AndroidXml
+20:54:57,500 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+20:54:57,500 TRACE [M] Entered classPathChanged(); project: NotePad
+20:54:57,500 TRACE [M] Entered checkProjectOptions(); project: NotePad
+20:54:57,500 TRACE [M] Entered classPathChanged(); project: Notepadv2
+20:54:57,500 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+10:47:00,607 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+10:47:00,607 DEBUG [C] Property change listener is disabled.
+21:04:10,093 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+21:04:10,968 DEBUG [C] Property change listener is enabled.
+21:04:11,140 DEBUG [F] Starting Search for CPs
+21:04:11,156 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+21:04:11,156 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+21:04:11,250 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+21:04:11,250 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+21:04:11,406 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+21:04:11,406 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+21:04:11,421 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+21:04:18,343 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+21:06:24,609 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:06:24,609 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:06:24,687 TRACE [M] Entered classPathChanged(); project: ApiDemos
+21:06:24,687 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+21:06:24,687 TRACE [M] Entered classPathChanged(); project: Notepadv1
+21:06:24,687 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+21:06:24,687 TRACE [M] Entered classPathChanged(); project: MJAndroid
+21:06:24,687 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+21:06:24,687 TRACE [M] Entered classPathChanged(); project: AndroidXml
+21:06:24,687 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+21:06:24,687 TRACE [M] Entered classPathChanged(); project: Notepadv2
+21:06:24,687 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+21:06:24,687 TRACE [M] Entered classPathChanged(); project: NotePad
+21:06:24,687 TRACE [M] Entered checkProjectOptions(); project: NotePad
+21:07:21,828 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:07:21,828 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:07:21,828 TRACE [M] Entered classPathChanged(); project: ApiDemos
+21:07:21,828 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+21:07:21,828 TRACE [M] Entered classPathChanged(); project: Notepadv1
+21:07:21,828 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+21:07:21,828 TRACE [M] Entered classPathChanged(); project: MJAndroid
+21:07:21,828 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+21:07:21,828 TRACE [M] Entered classPathChanged(); project: AndroidXml
+21:07:21,828 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+21:07:21,828 TRACE [M] Entered classPathChanged(); project: NotePad
+21:07:21,828 TRACE [M] Entered checkProjectOptions(); project: NotePad
+21:07:21,828 TRACE [M] Entered classPathChanged(); project: Notepadv2
+21:07:21,828 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+21:12:37,265 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:12:37,265 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:12:39,968 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:12:39,968 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:52:55,640 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:52:55,640 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:52:56,484 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:52:56,484 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:58:04,875 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:58:04,875 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:58:05,718 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:58:05,718 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+23:36:59,359 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+23:36:59,359 DEBUG [C] Property change listener is disabled.
+23:37:06,953 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+23:37:07,187 DEBUG [C] Property change listener is enabled.
+23:37:07,234 DEBUG [F] Starting Search for CPs
+23:37:07,250 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+23:37:07,250 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+23:37:07,265 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+23:37:07,265 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+23:37:07,328 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+23:37:07,328 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+23:37:07,328 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+23:37:07,343 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+23:37:17,484 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+23:37:17,484 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+23:37:29,218 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+23:37:29,218 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+10:07:16,986 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+10:07:16,986 DEBUG [C] Property change listener is disabled.
+22:38:29,500 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+22:38:31,000 DEBUG [C] Property change listener is enabled.
+22:38:31,375 DEBUG [F] Starting Search for CPs
+22:38:31,437 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+22:38:31,500 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+22:38:31,765 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+22:38:31,765 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+22:38:32,156 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+22:38:32,187 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+22:38:32,312 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+22:38:32,546 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+18:43:25,765 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+18:43:25,765 DEBUG [C] Property change listener is disabled.
+14:09:16,014 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+14:09:16,405 DEBUG [C] Property change listener is enabled.
+14:09:16,498 DEBUG [F] Starting Search for CPs
+14:09:16,498 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+14:09:16,498 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+14:09:16,530 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+14:09:16,530 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+14:09:16,576 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+14:09:16,576 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+14:09:16,592 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+14:09:16,608 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+20:17:00,343 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+20:17:00,343 DEBUG [C] Property change listener is disabled.
+20:45:43,328 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+20:45:44,515 DEBUG [C] Property change listener is enabled.
+20:45:44,750 DEBUG [F] Starting Search for CPs
+20:45:44,796 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+20:45:44,828 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+20:45:44,937 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+20:45:45,250 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+20:45:45,250 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+20:45:45,265 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+20:45:45,343 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+20:45:45,468 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+20:46:37,140 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+20:46:37,140 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+20:46:37,171 TRACE [M] Entered classPathChanged(); project: ApiDemos
+20:46:37,171 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+20:46:37,171 TRACE [M] Entered classPathChanged(); project: Notepadv1
+20:46:37,171 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+20:46:37,171 TRACE [M] Entered classPathChanged(); project: MJAndroid
+20:46:37,171 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+20:46:37,171 TRACE [M] Entered classPathChanged(); project: AndroidXml
+20:46:37,171 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+20:46:37,171 TRACE [M] Entered classPathChanged(); project: Notepadv2
+20:46:37,171 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+20:46:37,171 TRACE [M] Entered classPathChanged(); project: NotePad
+20:46:37,171 TRACE [M] Entered checkProjectOptions(); project: NotePad
+20:46:45,375 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+20:46:45,375 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+20:46:49,109 TRACE [M] Entered classPathChanged(); project: ApiDemos
+20:46:49,109 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+20:46:49,109 TRACE [M] Entered classPathChanged(); project: Notepadv1
+20:46:49,109 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+20:46:49,109 TRACE [M] Entered classPathChanged(); project: MJAndroid
+20:46:49,109 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+20:46:49,109 TRACE [M] Entered classPathChanged(); project: AndroidXml
+20:46:49,109 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+20:46:49,109 TRACE [M] Entered classPathChanged(); project: Notepadv2
+20:46:49,109 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+20:46:49,109 TRACE [M] Entered classPathChanged(); project: NotePad
+20:46:49,109 TRACE [M] Entered checkProjectOptions(); project: NotePad
+09:50:02,062 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+09:50:02,062 DEBUG [C] Property change listener is disabled.
+21:13:53,968 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+21:13:54,421 DEBUG [C] Property change listener is enabled.
+21:13:54,484 DEBUG [F] Starting Search for CPs
+21:13:54,484 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+21:13:54,484 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+21:13:54,515 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+21:13:54,578 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+21:13:54,578 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+21:13:54,578 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+21:13:54,578 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+21:14:17,671 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+21:15:09,234 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:15:09,234 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:15:09,328 TRACE [M] Entered classPathChanged(); project: ApiDemos
+21:15:09,328 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+21:15:09,328 TRACE [M] Entered classPathChanged(); project: Notepadv1
+21:15:09,328 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+21:15:09,328 TRACE [M] Entered classPathChanged(); project: MJAndroid
+21:15:09,328 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+21:15:09,328 TRACE [M] Entered classPathChanged(); project: AndroidXml
+21:15:09,328 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+21:15:09,328 TRACE [M] Entered classPathChanged(); project: Notepadv2
+21:15:09,328 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+21:15:09,328 TRACE [M] Entered classPathChanged(); project: NotePad
+21:15:09,328 TRACE [M] Entered checkProjectOptions(); project: NotePad
+21:16:03,421 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+21:16:03,421 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+21:16:06,015 TRACE [M] Entered classPathChanged(); project: ApiDemos
+21:16:06,015 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+21:16:06,015 TRACE [M] Entered classPathChanged(); project: Notepadv1
+21:16:06,015 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+21:16:06,015 TRACE [M] Entered classPathChanged(); project: MJAndroid
+21:16:06,015 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+21:16:37,156 TRACE [M] Entered classPathChanged(); project: AndroidXml
+21:16:37,156 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+21:16:59,093 TRACE [M] Entered classPathChanged(); project: Notepadv2
+21:16:59,093 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+21:16:59,093 TRACE [M] Entered classPathChanged(); project: NotePad
+21:16:59,093 TRACE [M] Entered checkProjectOptions(); project: NotePad
+08:25:50,437 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+08:25:50,437 DEBUG [C] Property change listener is disabled.
+11:33:37,328 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+11:33:38,421 DEBUG [C] Property change listener is enabled.
+11:33:38,671 DEBUG [F] Starting Search for CPs
+11:33:38,687 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+11:33:38,718 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+11:33:38,781 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+11:33:39,046 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+11:33:39,062 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+11:33:39,062 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+11:33:39,171 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+11:33:39,375 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+11:35:46,921 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+11:35:46,921 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+11:35:47,015 TRACE [M] Entered classPathChanged(); project: ApiDemos
+11:35:47,015 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+11:35:47,015 TRACE [M] Entered classPathChanged(); project: Notepadv1
+11:35:47,015 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+11:35:47,015 TRACE [M] Entered classPathChanged(); project: MJAndroid
+11:35:47,015 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+11:35:47,015 TRACE [M] Entered classPathChanged(); project: AndroidXml
+11:35:47,015 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+11:35:47,015 TRACE [M] Entered classPathChanged(); project: Notepadv2
+11:35:47,015 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+11:35:47,015 TRACE [M] Entered classPathChanged(); project: NotePad
+11:35:47,015 TRACE [M] Entered checkProjectOptions(); project: NotePad
+11:35:55,156 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+11:35:55,156 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+11:35:55,156 TRACE [M] Entered classPathChanged(); project: ApiDemos
+11:35:55,156 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+11:35:55,156 TRACE [M] Entered classPathChanged(); project: Notepadv1
+11:35:55,156 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+11:35:55,156 TRACE [M] Entered classPathChanged(); project: MJAndroid
+11:35:55,156 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+11:35:55,156 TRACE [M] Entered classPathChanged(); project: AndroidXml
+11:35:55,156 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+11:35:55,156 TRACE [M] Entered classPathChanged(); project: NotePad
+11:35:55,156 TRACE [M] Entered checkProjectOptions(); project: NotePad
+11:35:55,156 TRACE [M] Entered classPathChanged(); project: Notepadv2
+11:35:55,156 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+15:49:10,500 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+15:49:10,500 DEBUG [C] Property change listener is disabled.
+14:21:56,815 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+14:22:00,706 DEBUG [C] Property change listener is enabled.
+14:22:02,018 DEBUG [F] Starting Search for CPs
+14:22:02,112 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+14:22:02,159 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+14:22:02,487 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+14:22:02,487 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+14:22:03,143 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+14:22:03,159 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+14:22:03,378 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+14:22:04,581 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+14:22:52,957 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+14:22:52,957 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+14:22:53,035 TRACE [M] Entered classPathChanged(); project: ApiDemos
+14:22:53,035 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+14:22:53,035 TRACE [M] Entered classPathChanged(); project: Notepadv1
+14:22:53,035 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+14:22:53,035 TRACE [M] Entered classPathChanged(); project: MJAndroid
+14:22:53,035 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+14:22:53,051 TRACE [M] Entered classPathChanged(); project: AndroidXml
+14:22:53,051 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+14:22:53,051 TRACE [M] Entered classPathChanged(); project: Notepadv2
+14:22:53,051 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+14:22:53,051 TRACE [M] Entered classPathChanged(); project: NotePad
+14:22:53,051 TRACE [M] Entered checkProjectOptions(); project: NotePad
+14:23:09,817 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+14:23:09,817 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+14:23:09,817 TRACE [M] Entered classPathChanged(); project: ApiDemos
+14:23:09,817 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+14:23:09,817 TRACE [M] Entered classPathChanged(); project: Notepadv1
+14:23:09,817 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+14:23:09,817 TRACE [M] Entered classPathChanged(); project: MJAndroid
+14:23:09,817 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+14:23:09,817 TRACE [M] Entered classPathChanged(); project: AndroidXml
+14:23:09,817 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+14:23:09,817 TRACE [M] Entered classPathChanged(); project: NotePad
+14:23:09,817 TRACE [M] Entered checkProjectOptions(); project: NotePad
+14:23:09,817 TRACE [M] Entered classPathChanged(); project: Notepadv2
+14:23:09,817 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+20:49:21,015 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+20:49:21,015 DEBUG [C] Property change listener is disabled.
+17:00:07,947 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+17:00:09,650 DEBUG [C] Property change listener is enabled.
+17:00:10,056 DEBUG [F] Starting Search for CPs
+17:00:10,088 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+17:00:10,119 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+17:00:10,260 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+17:00:10,822 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+17:00:10,885 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+17:00:10,900 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+17:00:11,056 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+17:00:11,963 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+11:00:24,437 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+11:00:24,437 DEBUG [C] Property change listener is disabled.
+16:57:36,687 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+16:57:37,000 DEBUG [C] Property change listener is enabled.
+16:57:37,078 DEBUG [F] Starting Search for CPs
+16:57:37,093 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+16:57:37,093 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+16:57:37,125 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+16:57:37,125 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+16:57:37,187 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+16:57:37,187 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+16:57:37,187 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+16:57:37,250 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+16:58:32,906 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+16:58:32,906 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+16:58:33,109 TRACE [M] Entered classPathChanged(); project: ApiDemos
+16:58:33,109 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+16:58:33,109 TRACE [M] Entered classPathChanged(); project: Notepadv1
+16:58:33,109 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+16:58:33,109 TRACE [M] Entered classPathChanged(); project: MJAndroid
+16:58:33,109 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+16:58:33,109 TRACE [M] Entered classPathChanged(); project: AndroidXml
+16:58:33,109 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+16:58:33,109 TRACE [M] Entered classPathChanged(); project: Notepadv2
+16:58:33,109 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+16:58:33,109 TRACE [M] Entered classPathChanged(); project: NotePad
+16:58:33,109 TRACE [M] Entered checkProjectOptions(); project: NotePad
+16:58:36,750 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+16:58:36,750 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+16:58:36,765 TRACE [M] Entered classPathChanged(); project: ApiDemos
+16:58:36,765 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+16:58:36,765 TRACE [M] Entered classPathChanged(); project: Notepadv1
+16:58:36,765 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+16:58:36,765 TRACE [M] Entered classPathChanged(); project: MJAndroid
+16:58:36,765 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+16:58:36,765 TRACE [M] Entered classPathChanged(); project: AndroidXml
+16:58:36,765 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+16:58:36,765 TRACE [M] Entered classPathChanged(); project: NotePad
+16:58:36,765 TRACE [M] Entered checkProjectOptions(); project: NotePad
+16:58:36,765 TRACE [M] Entered classPathChanged(); project: Notepadv2
+16:58:36,765 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+08:36:06,046 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+08:36:06,046 DEBUG [C] Property change listener is disabled.
+12:04:16,937 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+12:04:18,078 DEBUG [C] Property change listener is enabled.
+12:04:18,375 DEBUG [F] Starting Search for CPs
+12:04:18,406 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+12:04:18,453 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+12:04:18,593 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+12:04:18,906 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+12:04:18,937 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+12:04:18,937 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+12:04:19,046 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+12:04:21,625 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+12:06:31,781 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+12:06:31,781 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+12:06:31,953 TRACE [M] Entered classPathChanged(); project: ApiDemos
+12:06:31,953 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+12:06:31,953 TRACE [M] Entered classPathChanged(); project: Notepadv1
+12:06:31,953 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+12:06:31,953 TRACE [M] Entered classPathChanged(); project: MJAndroid
+12:06:31,953 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+12:06:31,953 TRACE [M] Entered classPathChanged(); project: AndroidXml
+12:06:31,953 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+12:06:31,953 TRACE [M] Entered classPathChanged(); project: Notepadv2
+12:06:31,953 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+12:06:31,953 TRACE [M] Entered classPathChanged(); project: NotePad
+12:06:31,953 TRACE [M] Entered checkProjectOptions(); project: NotePad
+12:07:40,406 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+12:07:40,406 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+12:07:40,406 TRACE [M] Entered classPathChanged(); project: ApiDemos
+12:07:40,406 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+12:07:40,406 TRACE [M] Entered classPathChanged(); project: Notepadv1
+12:07:40,406 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+12:07:40,406 TRACE [M] Entered classPathChanged(); project: MJAndroid
+12:07:40,406 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+12:07:40,406 TRACE [M] Entered classPathChanged(); project: AndroidXml
+12:07:40,406 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+12:07:40,406 TRACE [M] Entered classPathChanged(); project: NotePad
+12:07:40,406 TRACE [M] Entered checkProjectOptions(); project: NotePad
+12:07:40,406 TRACE [M] Entered classPathChanged(); project: Notepadv2
+12:07:40,406 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+08:40:19,531 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+08:40:22,718 DEBUG [C] Property change listener is enabled.
+08:40:23,000 DEBUG [F] Starting Search for CPs
+08:40:23,062 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+08:40:23,109 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+08:40:23,281 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+08:40:23,546 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+08:40:23,546 DEBUG [K] VM: *ADDED* [1328370054921$C:\Program Files\Java\jre6]
+08:40:23,546 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+08:40:23,656 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+08:40:24,031 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+08:48:40,421 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+08:48:40,421 DEBUG [C] Property change listener is disabled.
+10:04:17,875 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+10:04:18,812 DEBUG [C] Property change listener is enabled.
+10:04:19,062 DEBUG [F] Starting Search for CPs
+10:04:19,093 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+10:04:19,109 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+10:04:19,156 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+10:04:20,562 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+10:04:20,812 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+10:04:20,953 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+10:04:21,046 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+13:48:58,281 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+13:48:58,281 DEBUG [C] Property change listener is disabled.
+13:50:32,875 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+13:50:33,593 DEBUG [C] Property change listener is enabled.
+13:50:33,890 DEBUG [F] Starting Search for CPs
+13:50:33,906 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+13:50:33,937 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+13:50:33,968 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+13:50:34,187 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+13:50:34,203 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+13:50:34,265 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+13:50:34,468 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+13:51:25,984 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+13:51:25,984 DEBUG [C] Property change listener is disabled.
+09:19:28,062 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+09:19:29,140 DEBUG [C] Property change listener is enabled.
+09:19:29,515 DEBUG [F] Starting Search for CPs
+09:19:29,531 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+09:19:29,562 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+09:19:29,640 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+09:19:29,843 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+09:19:29,859 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+09:19:29,984 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+09:19:30,171 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+09:20:03,015 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+09:20:03,015 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+09:21:25,546 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+09:21:25,546 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+14:12:21,170 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+14:12:21,170 DEBUG [C] Property change listener is disabled.
+13:56:59,442 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+13:56:59,848 DEBUG [C] Property change listener is enabled.
+13:56:59,926 DEBUG [F] Starting Search for CPs
+13:56:59,926 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+13:56:59,926 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+13:56:59,942 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+13:56:59,988 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+13:56:59,988 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+13:57:00,004 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+13:57:00,020 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+13:59:00,945 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+13:59:00,945 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+13:59:01,305 TRACE [M] Entered classPathChanged(); project: ApiDemos
+13:59:01,305 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+13:59:01,305 TRACE [M] Entered classPathChanged(); project: Notepadv1
+13:59:01,305 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+13:59:01,305 TRACE [M] Entered classPathChanged(); project: MJAndroid
+13:59:01,305 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+13:59:01,305 TRACE [M] Entered classPathChanged(); project: AndroidXml
+13:59:01,305 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+13:59:01,305 TRACE [M] Entered classPathChanged(); project: Notepadv2
+13:59:01,305 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+13:59:01,305 TRACE [M] Entered classPathChanged(); project: NotePad
+13:59:01,305 TRACE [M] Entered checkProjectOptions(); project: NotePad
+13:59:28,587 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+13:59:28,587 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+13:59:30,774 TRACE [M] Entered classPathChanged(); project: ApiDemos
+13:59:30,774 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+13:59:30,774 TRACE [M] Entered classPathChanged(); project: Notepadv1
+13:59:30,774 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+13:59:30,774 TRACE [M] Entered classPathChanged(); project: MJAndroid
+13:59:30,774 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+14:00:38,870 TRACE [M] Entered classPathChanged(); project: AndroidXml
+14:00:38,870 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+14:00:55,574 TRACE [M] Entered classPathChanged(); project: Notepadv2
+14:00:55,574 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+14:00:55,574 TRACE [M] Entered classPathChanged(); project: NotePad
+14:00:55,574 TRACE [M] Entered checkProjectOptions(); project: NotePad
+14:40:12,946 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+14:40:12,946 DEBUG [C] Property change listener is disabled.
+17:49:00,562 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+17:49:00,828 DEBUG [C] Property change listener is enabled.
+17:49:00,921 DEBUG [F] Starting Search for CPs
+17:49:00,921 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+17:49:00,937 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+17:49:00,968 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+17:49:01,171 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+17:49:01,187 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+17:49:01,296 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+17:49:01,484 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+17:50:19,671 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+17:50:19,671 DEBUG [C] Property change listener is disabled.
+19:26:11,625 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+19:26:12,671 DEBUG [C] Property change listener is enabled.
+19:26:12,953 DEBUG [F] Starting Search for CPs
+19:26:13,000 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+19:26:13,015 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+19:26:13,140 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+19:26:13,437 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+19:26:13,468 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+19:26:13,593 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+19:26:13,843 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+19:28:12,500 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+19:28:12,500 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+19:28:12,703 TRACE [M] Entered classPathChanged(); project: ApiDemos
+19:28:12,703 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+19:28:12,703 TRACE [M] Entered classPathChanged(); project: Notepadv1
+19:28:12,703 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+19:28:12,703 TRACE [M] Entered classPathChanged(); project: MJAndroid
+19:28:12,703 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+19:28:12,703 TRACE [M] Entered classPathChanged(); project: AndroidXml
+19:28:12,703 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+19:28:12,703 TRACE [M] Entered classPathChanged(); project: Notepadv2
+19:28:12,703 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+19:28:12,703 TRACE [M] Entered classPathChanged(); project: NotePad
+19:28:12,703 TRACE [M] Entered checkProjectOptions(); project: NotePad
+19:28:21,562 TRACE [M] Entered classPathChanged(); project: TomorrowGasPrice
+19:28:21,562 TRACE [M] Entered checkProjectOptions(); project: TomorrowGasPrice
+19:28:21,562 TRACE [M] Entered classPathChanged(); project: ApiDemos
+19:28:21,562 TRACE [M] Entered checkProjectOptions(); project: ApiDemos
+19:28:21,562 TRACE [M] Entered classPathChanged(); project: Notepadv1
+19:28:21,562 TRACE [M] Entered checkProjectOptions(); project: Notepadv1
+19:28:21,562 TRACE [M] Entered classPathChanged(); project: MJAndroid
+19:28:21,562 TRACE [M] Entered checkProjectOptions(); project: MJAndroid
+19:28:21,562 TRACE [M] Entered classPathChanged(); project: AndroidXml
+19:28:21,562 TRACE [M] Entered checkProjectOptions(); project: AndroidXml
+19:28:21,562 TRACE [M] Entered classPathChanged(); project: NotePad
+19:28:21,562 TRACE [M] Entered checkProjectOptions(); project: NotePad
+19:28:21,562 TRACE [M] Entered classPathChanged(); project: Notepadv2
+19:28:21,562 TRACE [M] Entered checkProjectOptions(); project: Notepadv2
+08:53:37,578 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+08:53:37,578 DEBUG [C] Property change listener is disabled.
+09:56:10,687 TRACE [R] ContextManager starting, bundle version: 2.0.0.201008051045-14
+09:56:10,937 DEBUG [C] Property change listener is enabled.
+09:56:11,000 DEBUG [F] Starting Search for CPs
+09:56:11,000 DEBUG [F] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components
+09:56:11,000 DEBUG [F] CP named BlackBerry Java SDK version 6.0.0 was found at C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components
+09:56:11,031 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.40\components]
+09:56:11,078 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Program Files\eclipse-java-galileo\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components]
+09:56:11,078 TRACE [O] Attempting to create VM with name - BlackBerry JRE 6.0.0
+09:56:11,078 TRACE [O] Attempting to create VM with name - BlackBerry JRE 5.0.0
+09:56:11,093 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+10:00:10,671 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+10:00:10,671 DEBUG [C] Property change listener is disabled.

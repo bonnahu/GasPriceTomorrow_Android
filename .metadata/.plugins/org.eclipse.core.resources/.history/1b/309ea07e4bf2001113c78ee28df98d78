@@ -1,0 +1,162 @@
+package tomorrow.gasprice;
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.os.Bundle;
+import android.widget.Toast;
+
+import com.google.android.maps.GeoPoint;
+import com.google.android.maps.MapActivity;
+import com.google.android.maps.MapController;
+import com.google.android.maps.MapView;
+import com.google.android.maps.OverlayItem;
+/**
+ * A MapView activity shows the gas station around the
+ * current position.
+ * In order to lead the map to display a particular location, 
+ * you must firstly create a GeoPoint object initialized 
+ * with the desired latitude and longitude you wish to 
+ * display and then use the animateTo(GeoPoint) method 
+ * of a MapController to navigate to that location.
+ * @author lhu
+ * reference:http://www.chupamobile.com/tutorial/details/53/
+ * http://catchmayuri.blogspot.ca/2011/05/get-current-location-gps-position-in.html
+ */
+public class MapViewActivity extends MapActivity { //implements LocationListener interface which gives the 
+	                                               //activity the possibility to receive notifications from
+	                                               //the LocationManager when the location has changed 
+	                                               //and to request location updates. 
+    private MapView mapView;
+    private LocationManager locManager;
+    private MyItemizedOverlay itemizedOverlay;
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+    	
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.map_view);
+        //fetch the map view from the layout
+        mapView = (MapView) findViewById(R.id.mapview);
+        //make available zoom controls
+        mapView.setBuiltInZoomControls(true);
+        //invalidate the map in order to show changes
+        mapView.invalidate();
+        // The heart of the Logic lies in the 'LocationManager' class, 
+        // which provides an access to the System location services.  
+        locManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        // the method requestLocationUpdates gives the periodic location 
+        // updates as per the arguments specified.
+        MyLocationListener _myLocationListener = new MyLocationListener();
+        locManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, _myLocationListener);
+    }
+    private class MyLocationListener  implements LocationListener{
+    	 @Override
+    	    public void onLocationChanged(Location location) {
+
+    	    	GeoPoint point=null;
+    	      
+    	        //if location found display as a toast the current latitude and longitude
+    	        if (location != null) {
+    	        	
+    	            Toast.makeText(
+    	            		MapViewActivity.this,
+    	                    "Current location:\nLatitude: " + location.getLatitude()
+    	                            + "\n" + "Longitude: " + location.getLongitude(),
+    	                    Toast.LENGTH_LONG).show();
+    	            
+    	             // In order to lead the map to display a particular location, 
+    	        	 // you must firstly create a GeoPoint object initialized 
+    	        	 // with the current latitude and longitude you wish to display
+    	        	 // Note that the GeoPoint class stores the values of its coordinates 
+    	        	 // as integer values, so you must first multiply the values 
+    	        	 // with 1E6 (i.e. 10^6).
+    	        	 point = new GeoPoint((int)(location.getLatitude()*1E6),(int)(location.getLongitude() *1E6));
+    	        	 // use the animateTo(GeoPoint) method 
+    	        	 // of a MapController to navigate to that location
+    	        	 // MapController is a utility class used to manage panning and zooming of a map
+    	             MapController controller = mapView.getController();
+    	             // animate to the desired point
+    	             controller.animateTo(point);
+    	             // set the map zoom to 13
+    	             // zoom 1 is top world view
+    	             // (1 <= zoomLevel <= 21).
+    	             controller.setZoom(17);
+
+    	             
+    	           
+    	             // fetch the drawable - the pin that will be displayed on the map
+    	             Drawable drawable = MapViewActivity.this.getResources().getDrawable(R.drawable.pushpin);
+    	             
+    	             // create and add an OverlayItem to the MyItemizedOverlay list
+    	             OverlayItem overlayItem = new OverlayItem(point, "", "");
+
+    	             itemizedOverlay = new MyItemizedOverlay(drawable,MapViewActivity.this);
+    	             itemizedOverlay.addOverlay(overlayItem);
+
+    	             // add the overlays to the map
+    	             mapView.getOverlays().add(itemizedOverlay);
+    	             mapView.invalidate();
+    	             
+    	             
+    	             
+    	             //invalidate the map in order to show changes
+    	             mapView.invalidate();
+    	        } else {
+    	            Toast.makeText(MapViewActivity.this, "Cannot fetch current location!",
+    	                    Toast.LENGTH_LONG).show();
+    	        }
+    	        
+    	       
+    	        
+    	      
+    	        //when the current location is found – stop listening for updates (preserves battery)
+    	        locManager.removeUpdates(this);
+    	    }
+
+		@Override
+		public void onProviderDisabled(String provider) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void onProviderEnabled(String provider) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void onStatusChanged(String provider, int status, Bundle extras) {
+			// TODO Auto-generated method stub
+			
+		}
+
+    }
+    @Override
+    protected boolean isRouteDisplayed() {
+
+        return false;
+
+    }
+    
+    /* When the activity starts up, request updates */
+    @Override
+    protected void onResume() {
+        super.onResume();
+        locManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0,
+                0, this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        locManager.removeUpdates(this); //activity pauses => stop listening for updates
+    }
+    
+   
+
+   
+
+	
+}

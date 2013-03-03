@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#0489B1">
+
+<!--TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="City" 
+    android:textSize = "30dp"/-->
+<TextView
+	android:singleLine="True"
+	android:layout_width="fill_parent"
+    android:layout_height="40px" 
+    android:textSize = "20dp"
+    android:gravity="center_horizontal"  
+    android:id="@+id/cityTxtView"/>
+
+
+<TextView
+	android:singleLine="True"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+    android:textSize = "15dp"
+    android:id="@+id/tomorrowDateTxtView"/>
+
+
+
+<TextView
+	android:singleLine="True"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+    android:textSize = "25dp"
+    android:id="@+id/gasPriceTxtView"/>
+
+
+<TextView
+	android:singleLine="True"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+    android:textSize = "25dp"
+    android:id="@+id/gasPriceChangeTxtView"/>
+
+<TextView
+	android:singleLine="True"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+    android:textSize = "15dp"
+    android:id="@+id/todayDateTxtView"/>
+
+  
+</LinearLayout>
